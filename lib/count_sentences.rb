@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     array = self.split
-    no_str_array = array.reject{ |ele| ele == "" || ele == "!" || ele == "?" || ele == "." || ele == "," }
+    no_str_array = array.
     no_str_array.count
   end
 end
